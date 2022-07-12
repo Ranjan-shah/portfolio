@@ -1,0 +1,157 @@
+/* id #  class . */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*header section*/
+.header_containeer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+    background-color: rebeccapurple;
+}
+
+.header_name{
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.header_side_button{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    align-items: center;
+}
+ 
+.header_download{
+    margin: 0px 15px;  /* vertical horizontal*/
+    padding: 6px 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.header_about,
+.header_contact {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+/*
+.image_containeer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+
+
+.img_containeer{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+
+}
+
+.header_containeer{
+    height: 2px;
+    width: 1px;
+}
+*/
+.intro {
+    font-size: 50px;
+    text-align: right;
+    
+    
+  
+}
+
+.img_containeer{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+    box-shadow: 1px 2px 17px 9px rgba(130, 125, 125, 0.76);
+    
+    margin-right: 100px;
+    
+    
+
+}
+
+.img_containeer:hover{
+    transform: scale(1.15);
+    opacity: 1;
+        
+    }
+
+  .hero_containeer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+ 
+   
+  }
+
+  /*#img{
+    position: relative;
+   height: 800px;
+   width: 20in;
+  }*/
+
+ .hero_containeer {
+  background-image: url("20211205_170705.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 94vh;
+  padding: 10px 30px;
+}
+
+.Education{
+   
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 300px;
+    border: 5px solid black;
+    margin: 30px;
+    align-items: center;
+    background-image: url("edd.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 300px;
+
+  display: flex;
+  justify-content: space-between;
+
+  height: 550px;
+  padding: 1px 20px;
+transition: transform 0.2s;
+    box-shadow: 1px 2px 17px 9px rgba(238, 10, 10, 0.76);
+ 
+ 
+}
+.Education:hover{
+    transform: scale(1.15);
+    opacity: 1;
+}
+
